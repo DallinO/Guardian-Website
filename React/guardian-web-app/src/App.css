@@ -1,0 +1,129 @@
+/******************************************************************************
+* STANDARD
+******************************************************************************/
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body {
+  color: white;
+  flex: 1;
+  /* Allow the body content to expand to fill the remaining space */
+  padding: 20px;
+}
+
+.title {
+  padding-left: 3%;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 2vmin;
+  color: white;
+}
+
+.App-login-button {
+  margin-left: auto;
+  padding-right: 3%;
+}
+
+/******************************************************************************
+* HOME PAGE GRID
+******************************************************************************/
+.grid-container {
+  display: grid;
+  height: stretch;
+  width: stretch;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2vmin;
+  overflow-x: hidden;
+}
+
+.item1,
+.item2 {
+  border: 1px solid black;
+  text-align: center;
+  z-index: 1;
+  padding: 2 vmin;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+
+/******************************************************************************
+* BUTTON 1
+******************************************************************************/
+.button1 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button1:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button1:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/******************************************************************************
+* OTHER
+******************************************************************************/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
