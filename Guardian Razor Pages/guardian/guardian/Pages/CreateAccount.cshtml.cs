@@ -10,11 +10,11 @@ using guardian.Models;
 
 namespace guardian.Pages
 {
-    public class CreateAccountModel : PageModel
+    public class CreateAccount : PageModel
     {
         private readonly guardian.Data.GuardianDbContext _context;
 
-        public CreateAccountModel(guardian.Data.GuardianDbContext context)
+        public CreateAccount(guardian.Data.GuardianDbContext context)
         {
             _context = context;
         }
