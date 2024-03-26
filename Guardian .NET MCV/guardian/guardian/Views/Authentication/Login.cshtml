@@ -1,4 +1,4 @@
-﻿@model guardian.Models.Login
+﻿@model guardian.Models.LoginViewModel
 
 @{
     ViewData["Title"] = "Login";
@@ -6,11 +6,11 @@
 
 <h2>@ViewData["Title"]</h2>
 
-<form asp-action="Create">
+<form asp-action="Login">
     <div class="form-group">
-        <label asp-for="Username" class="control-label"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+        <label asp-for="UsernameOrEmail" class="control-label"></label>
+        <input asp-for="UsernameOrEmail" class="form-control" />
+        <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -24,7 +24,7 @@
     </div>
 </form>
 <div>
-    <a asp-controller="Authentication" asp-action="CreateAccount" class="btn btn-link">Create Account</a>
+    <a asp-controller="Authentication" asp-action="Register" class="btn btn-link">Create Account</a>
 </div>
 
 @section Scripts {

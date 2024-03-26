@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using guardian.Data; // Assuming this is where your GuardianDbContext is located
+using guardian.Models; // Adjust the namespace to where your ApplicationUser class is located
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +14,12 @@ builder.Services.AddAntiforgery(options =>
 });
 
 // Add DbContext configuration
-builder.Services.AddDbContext<guardian.Data.GuardianDbContext>(options =>
+builder.Services.AddDbContext<GuardianDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add Identity services
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<GuardianDbContext>();
 
 var app = builder.Build();
 
@@ -29,7 +36,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+// Use Authentication and Authorization
+app.UseAuthentication(); // This is needed to initialize the authentication system
+app.UseAuthorization(); // This is needed to initialize the authorization system
 
 app.MapControllerRoute(
     name: "default",

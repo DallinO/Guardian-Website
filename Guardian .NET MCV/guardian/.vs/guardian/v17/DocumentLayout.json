@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\views\\authentication\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\views\\authentication\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\data\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\data\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\data\\guardiandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\data\\guardiandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|c:\\users\\olson\\documents\\github\\guardian-web-app\\guardian .net mcv\\guardian\\guardian\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4818E156-DB2C-4889-8F84-469C33FA4AA2}|guardian\\guardian.csproj|solutionrelative:guardian\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Program.cs",
-              "RelativeDocumentMoniker": "guardian\\Program.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Program.cs",
-              "RelativeToolTip": "guardian\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T23:19:25.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "guardian\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Models\\Login.cs",
-              "RelativeToolTip": "guardian\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T23:09:38.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateAccount.cshtml",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\CreateAccount.cshtml",
-              "RelativeDocumentMoniker": "guardian\\Views\\Authentication\\CreateAccount.cshtml",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\CreateAccount.cshtml",
-              "RelativeToolTip": "guardian\\Views\\Authentication\\CreateAccount.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T23:04:09.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Authentication.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Controllers\\Authentication.cs",
-              "RelativeDocumentMoniker": "guardian\\Controllers\\Authentication.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Controllers\\Authentication.cs",
-              "RelativeToolTip": "guardian\\Controllers\\Authentication.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wC0AAAAQAAAA",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "guardian\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "guardian\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T23:03:54.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "guardian\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\appsettings.Development.json",
-              "RelativeToolTip": "guardian\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-23T22:57:53.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "guardian\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "guardian\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T02:56:04.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "guardian\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "guardian\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T02:54:39.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GuardianDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Data\\GuardianDbContext.cs",
-              "RelativeDocumentMoniker": "guardian\\Data\\GuardianDbContext.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Data\\GuardianDbContext.cs",
-              "RelativeToolTip": "guardian\\Data\\GuardianDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T02:53:24.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\Login.cshtml",
-              "RelativeDocumentMoniker": "guardian\\Views\\Authentication\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\Login.cshtml",
-              "RelativeToolTip": "guardian\\Views\\Authentication\\Login.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T23:09:02.871Z",
+              "WhenOpened": "2024-03-26T03:14:10.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "guardian\\Models\\Account.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Models\\Account.cs",
-              "RelativeToolTip": "guardian\\Models\\Account.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA7wBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T02:50:48.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IdGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Data\\IdGenerator.cs",
-              "RelativeDocumentMoniker": "guardian\\Data\\IdGenerator.cs",
-              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Data\\IdGenerator.cs",
-              "RelativeToolTip": "guardian\\Data\\IdGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T00:46:16.843Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\Register.cshtml",
+              "RelativeDocumentMoniker": "guardian\\Views\\Authentication\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Olson\\Documents\\GitHub\\Guardian-Web-App\\Guardian .NET MCV\\guardian\\guardian\\Views\\Authentication\\Register.cshtml",
+              "RelativeToolTip": "guardian\\Views\\Authentication\\Register.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T03:13:35.931Z",
               "EditorCaption": ""
             }
           ]

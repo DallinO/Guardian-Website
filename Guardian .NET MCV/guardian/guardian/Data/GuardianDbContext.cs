@@ -1,16 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using guardian.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 
 namespace guardian.Data
 {
-    public class GuardianDbContext : DbContext
+    public class GuardianDbContext : IdentityDbContext<ApplicationUser>
     {
         public GuardianDbContext(DbContextOptions<GuardianDbContext> options)
-        : base(options)
+            : base(options)
         {
         }
 
-        public DbSet<Account> Account { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ApplicationUser>();
+        }
     }
 }

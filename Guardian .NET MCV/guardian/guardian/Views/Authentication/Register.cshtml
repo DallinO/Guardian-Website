@@ -1,17 +1,23 @@
-﻿@model guardian.Models.Account
+﻿@model guardian.Models.RegisterViewModel
 
 @{
-    ViewData["Title"] = "Create Account";
+    ViewData["Title"] = "Register";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<form asp-action="CreateAccount">
+<form asp-action="Register">
     @Html.AntiForgeryToken()
     <div class="form-group">
         <label asp-for="Username" class="control-label"></label>
         <input asp-for="Username" class="form-control" />
         <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -27,9 +33,9 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="Email" class="control-label"></label>
-        <input asp-for="Email" class="form-control" type="email" />
-        <span asp-validation-for="Email" class="text-danger"></span>
+        <label asp-for="ConfirmPassword" class="control-label"></label>
+        <input asp-for="ConfirmPassword" class="form-control" type="password" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     </div>
 
     <div class="form-group">
