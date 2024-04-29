@@ -6,7 +6,7 @@ namespace guardian.Models
     {
         [Required]
         [Display(Name = "Username or Email")]
-        public string UsernameOrEmail { get; set; }
+        public string EmailOrUserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]

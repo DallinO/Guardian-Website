@@ -27,14 +27,25 @@ namespace guardian.Controllers
         public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
         {
             returnUrl = returnUrl ?? Url.Content("~/");
+            
 
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.UsernameOrEmail, model.Password, model.RememberMe, lockoutOnFailure: false);
+                Microsoft.AspNetCore.Identity.SignInResult result;
+                var user = await _userManager.FindByEmailAsync(model.EmailOrUserName);
+                if (user != null)
+                {
+                    result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, lockoutOnFailure: false);
+                    // Continue with your login logic
+                }
+                else
+                {
+                    result = await _signInManager.PasswordSignInAsync(model.EmailOrUserName, model.Password, model.RememberMe, lockoutOnFailure: false);
+                }
 
                 if (result.Succeeded)
                 {
-                    return LocalRedirect(returnUrl);
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
